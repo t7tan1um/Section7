@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Pokémon Card Trading Center</title>
+
+  <!-- Google Fonts  -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Muli&family=Ubuntu&display=swap" rel="stylesheet">
+  <!-- CSS Stylesheets  -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Font Awesome  -->
+  <script defer src="http://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts  -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <section class= "colored-section" id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a style="color: white; font-weight: bold; font-size: 2.5rem; font-family: Consolas, Monaco, 'Andale Mono', monospace;">Pokémon Card Trading Center</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a style="color: #8f8f8f;" class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a style="color: #8f8f8f;" class="nav-link" href="#pricing">Price</a>
+            </li>
+            <li class="nav-item">
+              <a style="color: #8f8f8f;" class="nav-link" href="#cta">Download</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+
+      <div class="col-lg-6">
+        <img class="title-image" src="images/1.jpg">
+      </div>
+
+      <div class"row">
+
+        <div class="col-lg-6">
+          <h1 class="big-heading">Welcome to the Pokémon Card Trading Center! We offer the most comprehensive Pokémon card trading services worldwide, allowing trainers to effortlessly buy, sell, trade, and collect their desired Pokémon cards. Whether you're a novice or a seasoned player, this is the ultimate platform for showcasing your skills and discovering rare cards. Join us and embark on a magical journey into the world of Pokémon!</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+
+  </section>
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+
+    <div class="pos-img">
+      <img src="images/1.png">
+
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class = "colored-section" id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">This website truly is a paradise for Pokémon trainers! I have found the rare cards that I have always dreamed of here. The interface is sleek, the trading is secure, it's absolutely fantastic!</h2>
+          <img class="testimonial-image" src="images/2.jpg">
+          <em>Shepherd, United Kingdom</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">The Pokémon Card Trading Center provides me with a platform to communicate and trade with other trainers. I love the friendly community atmosphere and the wide selection of cards available here. It is definitely worth recommending!</h2>
+          <img class="testimonial-image" src="images/2.png">
+          <em>Magico, Japan</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section class="white-section" id="pricing">
+
+    <h2 class="feature-title">Price</h2>
+    <p class="feature-p">Forge your legendary path in the world of Pokémon</p>
+
+    <div class="row">
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Monthly Membership Plans</h3>
+          </div>
+          <div class="card-body">
+            <h3 class="price-text">Novice Trainer: Free</h3>
+            <h3 class="price-text">Advanced Trainer: $9.99 per month</h3>
+            <h3 class="price-text">Elite Trainer: $19.99 per month</h3>
+            <h3 class="price-text">Master Trainer: $29.99 per month</h3>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+
+        <div class="card">
+          <div class="card-header">
+            <h3>Annual Membership Plans</h3>
+          </div>
+          <div class="card-body">
+            <h4 class="price-text">Elite Trainer: $179.99 per year</h4>
+            <h3 class="price-text">Master Trainer: $299.99 per year</h3>
+            <h3 class="price-text">Super Trainer Bundle: $399.99 per year</h3>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+
+        <div class="card">
+          <div class="card-header">
+            <h3>Special Packages</h3>
+          </div>
+          <div class="card-body">
+            <h4 class="price-text">Beginner's Starter Package: One-time payment of $19.99, granting Advanced Trainer privileges for 3 months</h4>
+            <h3 class="price-text">Classic Collector's Package: One-time payment of $99.99, includes a set of limited-edition rare cards and Elite Trainer privileges for one year</h3>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+
+  <section class="colored-section" id="cta">
+
+    <div class="container-fluid2">
+
+      <h3 class="big-heading2">Capture Dreams  Collect Power!</h3>
+      <button class="download-button btn btn-lg btn-dark" type="button"><i class="fab fa-apple"></i> Download</button>
+      <button class="download-button btn btn-lg btn-light" type="button"><i class="fab fa-google-play"></i> Download</button>
+
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div>
+      <p class="feature-c">@ Copyright 2023 Pokémon Card Trading Center</p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
